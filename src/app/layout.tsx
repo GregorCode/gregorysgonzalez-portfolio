@@ -1,4 +1,4 @@
-import "./globals.css";
+import "@/styles/globals.css";
 import { Inter } from "next/font/google";
 import ActiveSectionContextProvider from "@/context/ActiveSectionContext";
 import Header from "@/components/Header";

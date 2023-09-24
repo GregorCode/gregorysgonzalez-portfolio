@@ -1,6 +1,6 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+import { FaDatabase, FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@public/corpcomment.png";
 import rmtdevImg from "@public/rmtdev.png";
@@ -46,28 +46,36 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Senior GeneXus Analyst",
+    location: "Montevideo, Uruguay",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Now I'm working as a Senior GeneXus Analyst, I also graduated as a Full Stack Developer at Platzi. My stack includes GeneXus, React, Next.js, TypeScript, Tailwind, MySQL, Tomcat, Docker, Linux. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2022 - present",
+  },
+  {
+    title: "GeneXus Analyst",
+    location: "Montevideo, Uruguay",
+    description:
+      "I worked as a GeneXus Analyst for 3 years in a Arnaldo Castro S.A. I participate in the development of applications for recognized companies in Uruguay, for example: VUCE, Ceibal, MSP, Presidencia, among others. I also upskilled to the full stack.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2019 - 2022",
+  },
+  {
+    title: "Systems Technician",
+    location: "Nueva Esparta, Venezuela",
+    description:
+      "I worked as a Systems Technician for 1 years in a well-known casino on the island. In this job, I developed a customer registration application with C++ and MySQL.",
+    icon: React.createElement(FaDatabase),
+    date: "2017 - 2018",
+  },
+  {
+    title: "Graduated Systems Engineer",
+    location: "Nueva Esparta, Venezuela",
+    description:
+      "I graduated after 5 years of studying. I immediately found a job as a Systems Technician.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2012 - 2017",
   },
 ] as const;
 
@@ -111,4 +119,5 @@ export const skillsData = [
   "GeneXus",
   "Tomcat",
   "Linux",
+  "Docker",
 ] as const;

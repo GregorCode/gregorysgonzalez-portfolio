@@ -81,25 +81,32 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "OnlineStore",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "When I graduated as a full stack developer, I developed an online store with all its functionalities: shopping cart, payment gateway, user account, among others.",
+    tags: ["Next.js", "Node.js", "Tailwind", "TypeORM", "PostgreSQL"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "MiChurryApp",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Private application where the company kept data on its clients and also on products and services they offered.",
+    tags: ["HTML", "CSS", "JavaScript", "JQuery", "Java", "MySQL"],
+    imageUrl: corpcommentImg,
   },
   {
-    title: "Word Analytics",
+    title: "SoftLegi",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "Private application where casino customer data is recorded and saved in databases.",
+    tags: ["C++", "Qt Creator", "SQL", "MySQL", "CSS"],
     imageUrl: wordanalyticsImg,
+  },
+  {
+    title: "Bookid's",
+    description:
+      "Digital encyclopedia where primary school children can search for information corresponding to the subjects taught in a semester.",
+    tags: ["HTML", "CSS", "JavaScript", "JQuery", "LocalStorage"],
+    imageUrl: rmtdevImg,
   },
 ] as const;
 
